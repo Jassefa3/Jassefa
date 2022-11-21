@@ -1031,3 +1031,38 @@ header {
 }
 
 .copyright a { color: var(--gainsboro); }
+
+.contactButton {
+  color: #fff;
+  padding: 15px 40px;
+  margin: 100px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #192535;
+  background-color: #fff;
+}
+
+.contactSection {
+  background-color: #192535;
+  color: #fff;
+}
+
+.subheading {
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.section-subtitles {
+  color: var(--liver-chestunut);
+    font-size: var(--fs-5);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
