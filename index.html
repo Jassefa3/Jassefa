@@ -1,696 +1,607 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html> 
+<html> 
+<!-- Home Begins -->
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joseph's Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Application Developer | Interaction Designer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" type="text/css" href="./superslides.css">
+    <link rel="stylesheet" type="text/css" href="./owl.carousel.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="./style.css">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/media_query.css">
-
-  <!--
-    - google font link
-  -->
-  <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-
 <body>
 
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
 
-  <!--
-    - container
-  -->
+    <div id="slides">
+        <div class="overlay"></div>
 
-  <div class="container">
-
-    <!--
-      - #HEADER
-    -->
-
-    <header>
-
-      <!--
-        - navbar toggle open button
-      -->
-
-      <button class="menu-open-btn">
-        <span>Menu</span>
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-
-      <nav class="nav">
-
-        <button class="menu-close-btn">
-          <ion-icon name="close-outline"></ion-icon>
-        </button>
-
-        <h4 class="nav-heading">Menu</h4>
-
-        <ul>
-
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#portfolio" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#services" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="#customers" class="nav-link">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-
-            <a href="./assets/images/Design Resume -AJ.pdf" class="nav-link">Resume</a>
-          </li>
-
-        </ul>
-
-
-        <div class="nav-footer">
-
-          <ul class="social-link">
-
-
-
-            <li>
-              <a href="https://www.behance.net/josephassefa">
-                <ion-icon name="logo-behance"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://github.com/Jassefa3">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-          <p>Developed by <a href="#" class="link-underline">Joseph-Assefa</a></p>
-
+        <div class="slides-container">
+          <img src="./IMG/slide4.jpg" alt="">
+          <img src="./IMG/slide5.jpg" alt="">
+          <img src="./IMG/slide2.jpg" alt="">
         </div>
 
-      </nav>
-
-
-      <!--
-        - header intro
-      -->
-
-      <section class="intro section-padding">
-
-        <div class="intro-profile">
-
-          <div class="intro-border one"></div>
-          <div class="intro-border two"></div>
-
-          <div class="img-box">
-            <img src="./assets/images/Joseph3.jpeg" alt="" class="intro-img" width="100%" loading="lazy">
-          </div>
-
-          <p>Hi there! I'm</p>
-
-          <div class="profile-name">
-            <span>[</span>
-            <div>Joseph Assefa</div>
-            <span>]</span>
-          </div>
-
+        <div class="titleMessage">
+            <div class="heading">
+                <p class="main">Joseph Assefa</p>
+                <p class="sub typed"></p>
+            </div>
         </div>
 
-        <a href="#contact" class="intro-link">
-          <span class="circle"></span>
-          <span class="link-underline">I’m currently exploring new opportunities.</span>
-        </a>
 
-      </section>
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+    </div>
 
-    </header>
+    <!--NAVBAR-->
 
+    
+        <nav id="navigation" class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#slides">J.A</a>
 
-
-
-
-    <main>
-
-      <!--
-        - #HOME
-      -->
-
-      <section class="section-padding" id="home">
-
-
-        <h2 class="section-title">UI/UX Designer</h2>
-
-        <p class="section-desc">I design and develop services for customers of all sizes.
-          I specalize in creating stylish, modern websites and beautiful interfaces. 
-          I believe great design is defined by the experience it creates for the user combined with flawless execution. 
-          I have a keen eye for creating engaging UI and bringing products to life. 
-          </p>
-
-        <img src="./assets/images/Logo.png" width="200px" alt="" loading="lazy">
-
-      </section>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <section class="section-padding" id="about">
-
-        <h3 class="section-subtitle">About me</h3>
-
-        <h2 class="section-title">Biography</h2>
-
-        <p class="section-desc">I am a dedicated UI/UX designer with a strong passion for design strategy, illustration, typography, and storytelling.  
-          I value simple content structure, clean design patterns, and thoughtful interactions and I like to work with new people. 
-          New people are new experiences.</p>
-
-
-        <table class="about-table">
-          <tr>
-            <th>Name</th>
-            <td>Joseph Assefa</td>
-          </tr>
-          <tr>
-            <th>Address</th>
-            <td>Austin</td>
-          </tr>
-          
-          <tr>
-            <th>Email</th>
-            <td>
-              <a href="mailto:assefa.joseph@gmail.com" class="link-underline">assefa.joseph@gmail.com</a>
-            </td>
-          </tr>
-          <tr>
-            <th>Linkedin</th>
-            <td>
-              <a target=“_blank” href="https://www.linkedin.com/in/joseph-assefa-a6118b213/" class="link-underline">@Joseph-Assefa</a>
-            </td>
-          </tr>
-        </table>
-        
-      <!--<button class="download-cv">
-          <ion-icon name="cloud-download-outline"></ion-icon>
-          <a target=“_blank” href="./assets/images/Design Resume -Assefa, Joseph.pdf"><span>Download Resume</span></a>
-        </button>-->
-
-        <div class="about-tab">
-
-          <ul class="tab-nav">
-
-            <li>
-              <button class="one tab-button active">Experience</button>
-            </li>
-            <li>
-              <button class="two tab-button">Education</button>
-            </li>
-            <li>
-              <button class="three tab-button">Skills</button>
-            </li>
-
-          </ul>
-
-          <div class="tab-content-group">
-
-            <div class="one tab-content active">
-
-              <div class="content-card">
-
-                <div class="card-head">
-                  <h4> Prosper IT Consulting</h4>
-                  <p>(Oct. 2021 - Jan. 2022)</p>
-                </div>
-
-                <div class="card-body">
-                  <h3>Software Developer Intern</h3>
-                  <p>Skills set: HTML, CSS, JS, Testing
-                    Participated in daily Agile/Scrum sessions to meet team delivery and quality goals
-                    Developer on live website for local investment company creating fluid and user-focused interfaces
-                    </p>
-                </div>
-
-              </div>
-
-
-              <div class="content-card">
-
-                <div class="card-head">
-                  <h4>Treehouse Strategy</h4>
-                  <p>(Jun. 2021 - Sep. 2021)                  </p>
-                </div>
-
-                <div class="card-body">
-                  <h3>UI/UX Design Intern</h3>
-                  <p>Skills set: Wireframes, Figma, Data Analysis, User Story
-                    Gained B2C experience
-                    Expanded design skills to multiple platforms
-                    </p>
-                </div>
-
-              </div>
-
-
-              <div class="content-card">
-
-                <div class="card-head">
-                  <h4>Epic Trading</h4>
-                  <p>(Jun. 2019 - Nov. 2020)</p>
-                </div>
-
-                <div class="card-body">
-                  <h3>Digital Marketer</h3>
-                  <p>Developed and implemented daily strategy meetings to increase team efficiency
-                    Hosted live trading calls for each week for over 300 investors and earned over $10k in assets
-                    </p>
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="two tab-content">
-
-              <div class="content-card">
-
-                <div class="card-head">
-                  <h4>Austin Community College</h4>
-                  <p>( 2022 — 2024 )</p>
-                </div>
-
-                <div class="card-body">
-                  <h3>Associates of Applied Science Degree</h3>
-                  <p>Majoring in Computer Information Technology: Applications Development-Coding & Design Specialization. 
-                    Passionate about getting a fundamental understanding of Application Development through a degree</p>
-                </div>
-
-              </div>
-
-
-              <div class="content-card">
-
-                <div class="card-head">
-                  <h4>The Tech Academy</h4>
-                  <p>( 2021 — 2022 )</p>
-                </div>
-
-                <div class="card-body">
-                  <h3>Front-end development Certification</h3>
-                  <p>Immersive boot camp with more than 600 hours of instruction and hands-on coding experience, while 
-                    also focusing on core concepts of UX design principles
-                  </p>
-                </div>
-
-              </div>
-
-
-              <div class="content-card">
-
-                <div class="card-head">
-                  <h4>New York Institute of arts+design</h4>
-                  <p>( 2020 — 2021 )</p>
-                </div>
-
-                <div class="card-body">
-                  <h3>UX Design Certification</h3>
-                  <p> Intensive six-month bootcamp focused on end-user research and elements of web design</p>
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="three tab-content">
-
-              <div class="skill-box">
-                <h4 class="skill-name">Figma/Adobe XD</h4>
-
-                <div class="progress-bar">
-                  <div class="progress" style="width: 95%;"></div>
-                  <div class="progress-rate" style="left: 95%;">95%</div>
-                </div>
-              </div>
-
-              <div class="skill-box">
-                <h4 class="skill-name">HTML5 & CSS3</h4>
-
-                <div class="progress-bar">
-                  <div class="progress" style="width: 90%;"></div>
-                  <div class="progress-rate" style="left: 90%;">90%</div>
-                </div>
-              </div>
-
-              <div class="skill-box">
-                <h4 class="skill-name">JavaScript</h4>
-
-                <div class="progress-bar">
-                  <div class="progress" style="width: 80%;"></div>
-                  <div class="progress-rate" style="left: 80%;">80%</div>
-                </div>
-              </div>
-
-              <div class="skill-box">
-                <h4 class="skill-name">Creative Cloud</h4>
-
-                <div class="progress-bar">
-                  <div class="progress" style="width: 85%;"></div>
-                  <div class="progress-rate" style="left: 85%;">85%</div>
-                </div>
-              </div>
-
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <section class="section-padding" id="portfolio">
-
-        <h3 class="section-subtitle">Projects</h3>
-
-        <div class="wrapper">
-
-          <h2 class="section-title">Featured Projects</h2>
-
-          <div class="btn-group">
-            <button id="portfolio-carousel-prev">
-              <div class="arrow">
-                <div class="arrow-head-left"></div>
-              </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
 
-            <button id="portfolio-carousel-next">
-              <div class="arrow">
-                <div class="arrow-head-right"></div>
-              </div>
-            </button>
-          </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#stats">Stats</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    
+     <!--NAVBAR END-->
+
+        <!-- TRIAL -->
+        <section class="hero firstSec section colored" id="home">
+            <div class="container">
+            <div class="col-xs-6 col-md-4 profilePic">
+                <img src="./IMG/Joseph.png" alt class="img-circle">
+            </div>
+            <div class="heading">
+                <h1>Joseph Assefa</h1>
+                <h3>Creating intuitive, meaningful digital experiences</h3>
+                <a href="./IMG/Design Resume -AJ.pdf" class="contactButton">DOWNLOAD RESUME</a>
+            </div>
+            </div>
+        </section>
+
+                <!-- TRIAL -->
+
+
+
+    
+<!-- About Begins -->
+
+    <div id="about" class="section">
+
+        <h5 class="space">ABOUT</h5>
+
+            <div class="container">
+
+            
+            <div class="row">
+
+                <div class="col-md-5">
+                    <img class="aboutImage" src="./IMG/Logo.png">
+                </div>
+
+                <div class="col-md-7">
+
+                    
+                    <p>Though I know how to design, and am a decent front-end developer, the most important skill I have is the ability to solve problems using Design Thinking. 
+                        To me, this means being able to empathize, observe, ideate, prototype rapidly and validate your vision on a screen. 
+                        I also am passionate about design strategy, illustration, typography, and storytelling. I value simple content structure, clean design patterns, and thoughtful interactions and I like to work with new people. 
+                        New people are new experiences.</p>
+                    <p>Whether you’re looking for a powerful landing page or need copywriting for an entire website, I’ll provide words that turn leads into customers.
+                        Combining effective copy techniques, engaging text, and SEO principles, my services will help your site rise in the ranks.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Skills Begins-->
+
+<div id="skills" class="skillsSection">
+
+    <div class="container">
+
+    
+    <div class="row">
+
+        <div class="col-md-12 text-center">
+            <h5 class="space">TECHNICAL SKILLS</h5>
+            <p>A representation of my proficiency in each skill</p>
+            <p>Lowest possible value: 10% -Used for short period of time such as with a class project.</p>
+            <p>Highest possible value: 100% -Very extensive experience with this particular skill.</p>
+        </div>
+        <br>
+        <div class="owl-carousel owl-theme">
+            
+
+            <div class="skill">
+                <span class="chart" data-percent="80">
+                    <span class="percent">80</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>Creative Cloud</h4>
+                <p>I mostly focus on Illustrator, Photoshop, and After effects.</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="88">
+                    <span class="percent">88</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>JavaScript</h4>
+                <p>This forms a lart part of my web based projects</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="90">
+                    <span class="percent">90</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>SEO Optimization</h4>
+                <p> Used everyday in my digital marketing days.
+                    I'll make sure clients are greeted with personality, professionalism, and a hint of humor.</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="100">
+                    <span class="percent">100%</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>SQL Server</h4>
+                <p>Used this often during past projects</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="90">
+                    <span class="percent">90</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>React.js</h4>
+                <p>Used mainly during my software eingeneer internship. </p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="100">
+                    <span class="percent">100</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>Figma/XD</h4>
+                <p>My goal as a designer is to create a clear, intuitive, and understandable product expierence. 
+                    I build brands through cultural insights & strategic vision.</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="70">
+                    <span class="percent">70</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>JQuery</h4>
+                <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="50">
+                    <span class="percent">50</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>Python</h4>
+                <p>Took multiple classes on this.</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="90">
+                    <span class="percent">90</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>HTML5/CSS</h4>
+                <p>I learned both of these languages simultaneously in highschool and have been making websites ever since!</p>
+            </div>
+
+            <div class="skill">
+                <span class="chart" data-percent="80">
+                    <span class="percent">80</span>
+                    <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>Java</h4>
+                <p>I use this a lot when working on mobile app dev.</p>
+            </div>
+
+        </div>
+        
+       
+        </div>
+    </div>
+</div>
+
+<!-- stats Begins -->
+
+<!-- ICONS -->
+
+<div id="stats" class="statsSection">
+
+    <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-3 col-sm-6">
+
+            <div class="squareItem">
+
+                <div class="squareInnerContainer">
+
+                    <div class="squareIcon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+
+                    <div class="squareContent">
+                        <h2 class="counter">4</h2>
+                        <h3>Years Expierence</h3>
+                    </div>
+                </div>
+
+                
+            </div>
 
         </div>
 
-        <div class="portfolio-carousel">
 
-          <div class="portfolio-carousel-inner">
+        <div class="col-md-3 col-sm-6">
 
-            <div class="portfolio-carousel-card">
+            <div class="squareItem">
 
-              <div class="card-head">
-                <img src="./assets/images/Qutie.png" alt="" class="slider-img" width="100%" loading="lazy">
-              </div>
+                <div class="squareInnerContainer">
 
-              <div class="card-body">
-                <p>illustration, design</p>
-                <h4><a target=“_blank” href="https://assefajoseph.wixsite.com/sample/about-8">Qutie"Mobile Discounting App"</a></h4>
-              </div>
+                    <div class="squareIcon">
+                        <i class="fa-regular fa-calendar-days"></i>
+                    </div>
 
+                    <div class="squareContent">
+                        <h2 class="counter">103</h2>
+                        <h3>Clients</h3>
+                    </div>
+                </div>
+
+                
             </div>
 
+        </div>
 
-            <div class="portfolio-carousel-card">
 
-              <div class="card-head">
-                <img src="./assets/images/MGC.png" alt="" class="slider-img" width="100%" loading="lazy">
-              </div>
 
-              <div class="card-body">
-                <p>web, mobile, online</p>
-                <h4><a target=“_blank” href="https://assefajoseph.wixsite.com/sample/about-1">Mount Gerizim Charity</a></h4>
-              </div>
+        <div class="col-md-3 col-sm-6">
 
+            <div class="squareItem">
+
+                <div class="squareInnerContainer">
+
+                    <div class="squareIcon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div class="squareContent">
+                        <h2 class="counter">11</h2>
+                        <h3>App Engineering</h3>
+                    </div>
+                </div>
+
+                
             </div>
 
+        </div>
 
-            <div class="portfolio-carousel-card">
 
-              <div class="card-head">
-                <img src="./assets/images/Movie app.png" alt="" class="slider-img" width="100%" loading="lazy">
-              </div>
 
-              <div class="card-body">
-                <p>HTML5, CSS, JavaScript, design, vector</p>
-                <h4><a target=“_blank” href="https://htmlpreview.github.io/?https://github.com/Jassefa3/HTML-and-CSS-Projects/blob/main/academy_cinemas.html">Movie App</a></h4>
-              </div>
+        <div class="col-md-3 col-sm-6">
 
+            <div class="squareItem">
+
+                <div class="squareInnerContainer">
+
+                    <div class="squareIcon">
+                        <i class="fa-regular fa-object-group"></i>
+                    </div>
+
+                    <div class="squareContent">
+                        <h2 class="counter">37</h2>
+                        <h3>Websites Made</h3>
+                    </div>
+                </div>
+
+<!-- ICONS -->
+                
             </div>
 
+        </div>
 
         
-
-
-            <div class="portfolio-carousel-card">
-
-              <div class="card-head">
-                <img src="./assets/images/Spacestation.png" alt="" class="slider-img" width="100%" loading="lazy">
-              </div>
-
-              <div class="card-body">
-                <p>HTML5, CSS, design</p>
-                <h4><a target=“_blank” href="https://htmlpreview.github.io/?https://github.com/Jassefa3/HTML-and-CSS-Projects/blob/main/index.html">Space station</a></h4>
-              </div>
-
-            </div>
-
-          </div>
-
+       
         </div>
+    </div>
+</div>
+    
+<!-- CONTACT -->
 
-      </section>
-
-
-
-
-
-      <!--
-        - #SERVICES
-      -->
-
-      <section class="section-padding" id="services">
-
-        <h3 class="section-subtitle">Services</h3>
-
-        <h2 class="section-title">What I Do</h2>
-
-        <p class="section-desc">I help ambitious businesses like yours generate more profits by building awareness,
-          driving web traffic, delivering innovative concepts, sleek wireframes, and engaging user experiences.</p>
-
-
-        <div class="service-cards-group">
-
-          <div class="service-card">
-
-            <div class="card-body">
-              <h3>UI/UX Solutions</h3>
-              <p>As designers, our goal is not to eliminate complexity or friction, but rather create a clear, 
-                intuitive, and understandable product expierence. I build brands through cultural insights & strategic vision. </p>
-            </div>
-
-            <div class="card-footer">
-              <span>Curiosity,
-                Empathy,
-                Discipline</span>
-              <div>soft skills</div>
-            </div>
-
-          </div>
-
-
-          <div class="service-card">
-
-            <div class="card-body">
-              <h3>Front End Programming</h3>
-              <p>Learning to code is useful no matter what your career ambitions are.
-                I am trained in: HTML, CSS, JavaScript, C#, SQL, Python, and more.</p>
-            </div>
-
-            <div class="card-footer">
-              <span>Critical Thinking,
-                Problem Solving,
-                Creativity</span>
-              <div>soft skills</div>
-            </div>
-
-          </div>
-
-
-          <div class="service-card">
-
-            <div class="card-body">
-              <h3>Global Marketing</h3>
-              <p>Custom marketing solutions. From my role as an financial ambassador I am much more capable to play my part in bringing success and value to any team.</p>
-            </div>
-
-            <div class="card-footer">
-              <span>Good Communication,
-                Organization,
-                Collaboration</span>
-              <div>soft skills</div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-
-
-
-
-      <!--
-        - #CUSTOMERS
-      -->
-
-      <section class="section-padding" id="customers">
-
-        <h3 class="section-subtitle">Testimonials</h3>
-
-        <h2 class="section-title">Happy People</h2>
-
-        <div class="wrapper">
-
-          <a href="#">
-           
-
-        <div class="testimonials">
-
-          <div class="testimonials-content">
-            <p>
-               "I recently worked with Joseph and he was a pleasure to work with. 
-              He is responsive, diligent and professional and I would absolutely hire him again." 
-            </p>
-
-            <div class="title">Gina Fant-Simon</div>
-            <div class="subtitle"> Founder: Vino and Voting</div>
-          </div>
-          <br>
-          <br>
-          <br>
-          <div class="testimonials">
-
-            <div class="testimonials-content">
-              <p>
-                 "I had the pleasure of working with Joseph on a project and he was very professional and great at communicating. 
-                 If you need someone to communicate efficiently with you and put your vision on a screen, he's your guy!" 
-              </p>
-  
-              <div class="title">Azariah Beyene</div>
-              <div class="subtitle"> Software Engineer: Facebook</div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="testimonials">
-
-          <div class="testimonials-content">
-            <p>
-              "I hired Joseph to help with our company’s rebranding efforts. 
-              Joseph was a pleasure to work with. he was professional and I’d definitely do work with him again, highly recommend. 
-              Worth the $$."</p>
-
-            <div class="title">Markus Hofheinz</div>
-            <div class="subtitle"> Customer: Leopheonix</div>
-          </div>
-
-      </section>
-
-
-
-      
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-      
-      <div id="contact" class="contactSection">
+    <div id="contact" class="contactSection section">
 
         <div class="col-md-12 text-center">
             <p class="subheading">Like What You See?</p>
-            <h2 class="subheading">Let's Bring Your Vision To Life!</h2>
+            <h2>Let's Bring Your Vision To Life!</h2>
             <a href="mailTo:assefa.joseph@gmail.com" class="contactButton">GET IN TOUCH!</a>
-          </div>
+
+        </div>
+
+    </div>
+
+<!-- PORTFOLIO -->
+
+
+<div id="portfolio" class="section">
+
+    <div class="container">
+
+    
+    <div class="row">
+
+        <div class="heading">
+            <h5 class="space">PROJECTS</h5>
+        </div>
+
+        <div class="filter">
+
+            <ul id="filters">
+
+
+
+                <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                <li><a id="apps" data-filter=".apps">APPS</a></li>
+                <li><a href="#" data-filter=".websites">WEBSITES</a></li>
+                <li><a href="#" data-filter=".me">ME</a></li>
+
+            </ul>
+        </div>
+
+        <div class="itemsContainer">
+            <ul class="items">
+
+                <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                    <div class="item">
+
+                        <img src="./IMG/Qutie.png">
+
+                        <div class="icons">
+                            <a id="fancyBox" href="./IMG/Qutie.png" title="View image" class="openButton" data-fancybox data-caption="Qutie Mobile Discounting App">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <a href="https://assefajoseph.wixsite.com/sample/about-8" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+
+                <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                    <div class="item">
+
+                        <img src="./IMG/MGC.png">
+
+                        <div class="icons">
+                            <a id="fancyBox" href="./IMG/MGC.png" title="View image" class="openButton" data-fancybox data-caption="Mount Gerizim Charity">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <a href="https://assefajoseph.wixsite.com/sample/about-1" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+                <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                    <div class="item">
+
+                        <img src="./IMG/Tier.png">
+
+                        <div class="icons">
+                            <a id="fancyBox" href="./IMG/Tier.png" title="View image" class="openButton" data-fancybox data-caption="elite matchmaking">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <a href="" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+                <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                    <div class="item">
+
+                        <img src="./IMG/Pluto Customz.png">
+
+                        <div class="icons">
+                            <a id="fancyBox" href="./IMG/Pluto Customz.png" title="View image" class="openButton" data-fancybox data-caption="A sneaker customization website">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <a href="https://assefajoseph.wixsite.com/sample/about-1-1" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+
+                <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                    <div class="item">
+
+                        <img src="./IMG/Spacestation.png">
+
+                        <div class="icons">
+                            <a id="fancyBox" href="./IMG/Spacestation.png" title="View image" class="openButton" data-fancybox data-caption="Interactive SpaceStation Website">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <a href="https://htmlpreview.github.io/?https://github.com/Jassefa3/HTML-and-CSS-Projects/blob/main/index.html" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+                <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                    <div class="item">
+
+                        <img src="./IMG/Fordham.png">
+
+                        <div class="icons">
+                            <a id="fancyBox" href="./IMG/Fordham.png" title="View image" class="openButton" data-fancybox data-caption="Web pages and social graphics made for Fordham University Localization project management program">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <a href="https://assefajoseph.wixsite.com/sample/single-project-1" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+
+
+                <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                    <div class="item">
+
+                        <img src="./IMG/Joseph.png">
+
+                        <div class="icons">
+                            <a href="./IMG/Joseph.png" title="View image" class="openButton" data-fancybox data-caption="Cousins GRad">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <a href="" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+
+                
+
+            </ul>
         </div>
 
 
 
 
-      <!--
-        - #FOOTER
-      -->
-
-      <div class="footer">
-
-        <a href="#home" class="go-top">
-          <div class="arrow">
-            <div class="arrow-head"></div>
-          </div>
-        </a>
-
-        <p class="copyright">
-          Copyright © 2022. All rights reserved.
-          <br>
-          Developed by <a href="#" class="link-underline">Joseph-Assefa</a>
-        </p>
-
-     
-
-    </main>
-
-  
 
 
+    
+    </div>
+</div>
+</div>
 
+<!-- COPYWRIGHT-->
 
+<footer class="">
+<div class="copyrightSection">
 
+    <div class="col-md-12 text-center">
+        <a>&copy; Copyright Joseph Assefa 2022</a>
+    </div>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+        <ul class="social-link">
 
+            
+                <a href="https://www.linkedin.com/in/joseph-a-a6118b213/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+              
 
-  <!--
-   - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+         
+            <a href="https://www.behance.net/josephassefa">
+                <i class="fa-brands fa-square-behance"></i>
+            </a>
+          
 
+          
+            <a href="https://github.com/Jassefa3">
+                <i class="fa-brands fa-square-github"></i>
+            </a>
+          
+
+        </ul>
+
+</div>
+
+</footer> 
+    
+    <script src="https://kit.fontawesome.com/e4364364a6.js" crossorigin="anonymous"></script>
+    <script src="./JS/countUp.js"></script>
+    <script src="./JS/countUp-jquery.js"></script>
+    <script src="./JS/jquery.superslides.min.js"></script>
+    <script src="./JS/jquery.easypiechart.min.js"></script>
+    <script src="./JS/owl.carousel.min.js"></script>
+    <script src="./JS/typed.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>    
+    <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="./JS/script.js"></script>
+    
 </body>
-
 </html>
+
