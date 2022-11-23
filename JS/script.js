@@ -16,6 +16,11 @@ $(window).on("load", function() {
 })
 
 
+
+
+
+
+
 $(document).ready(function() {
 
     $('#slides').superslides({
@@ -148,6 +153,12 @@ $(document).ready(function() {
 
 
 
+
+        const cursorRounded = document.querySelector('.rounded');
+        const cursorPointed = document.querySelector('.pointed');
+        
+        
+       
     }
 
 });

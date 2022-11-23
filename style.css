@@ -72,6 +72,9 @@ body {
 .contactSection {
    background-color: #192535;
    color: #fff;
+   border-style: solid ;
+   border-width: 10px;
+   border-color: #856A4D;
 }
 
 .skill {
@@ -283,12 +286,12 @@ body {
 
 .items .openButton {
    float: left;
-   left: -200px;
+   left: -400px;
 }
 
 .items .projectLink {
    float: right;
-   right: -200px;
+   right: -400px;
 }
 
 .items .item:hover .openButton {
@@ -313,9 +316,12 @@ body {
 }
 
 .copyrightSection {
-   background-color: #856A4D;
+   background-color: #192535;
    color: #fff;
    padding: 30px 5px;
+   border-style: solid ;
+   border-width: 10px;
+   border-color: #856A4D;
 }
 
 .copyrightSection p {
@@ -327,6 +333,7 @@ body {
    padding: 20px 10px;
    z-index: 100;
    width: 100%;
+   cursor: url('IMG/');
 }
 
 
@@ -350,8 +357,7 @@ body {
 }
 
 .navbar-toggler-icon {
-   background: url(./IMG/Icons/xbox.png);
-   background-size: 100%;
+   
 }
 
 
@@ -385,6 +391,9 @@ body {
 .hero {
    background: #192535;
    color: #fff;
+   border-style: solid ;
+   border-width: 10px;
+   border-color: #856A4D;
 }
 
 .section {
@@ -451,7 +460,7 @@ img {
 
 .space {
       font-family: sans-serif;
-      margin: 100px auto;
+      margin: 50px auto;
       text-align: center;
         font-size: 30px;
         max-width: 600px;
@@ -485,12 +494,14 @@ h5:before {
   text-align: center;
   flex-wrap:   wrap;
   gap: 10px;
+  padding-top: 20px;
 }
 
 .social-link a {
    padding: 10px;
    background: hsla(0, 0%, 100%, 0.05);
    transition: var(--default-transition);
+   margin: 0 auto;
  }
  
  .social-link a:hover { background: hsla(0, 0%, 100%, 0.1); }
@@ -500,6 +511,13 @@ h5:before {
     text-align: center;
  }
  
- 
 
- 
+ .space1,
+ h4 {
+    padding: 0px 0px 20px 0px;
+ }
+
+.spacey {
+   text-align: center;
+}
+
