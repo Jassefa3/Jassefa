@@ -158,11 +158,12 @@ $(document).ready(function() {
         const cursorPointed = document.querySelector('.pointed');
         
         
-       
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel();
+          });
     }
 
 });
 
 
 
- 
