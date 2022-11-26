@@ -332,7 +332,7 @@ body {
 }
 
 .navbar-toggler-icon {
-   background: url(./IMG/Icons/xbox.png);
+   background: url(./IMG/Icons/icons8-menu-24.png);
    background-size: 100%;
 }
 
@@ -551,3 +551,8 @@ h5:before {
    margin: 5px 2px;
 }
 
+.details {
+   width: 100px;
+   height: 80px;
+   margin: auto;
+}
