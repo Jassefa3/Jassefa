@@ -498,7 +498,7 @@ h5:before {
    height: 5px;
    background: #856A4D;
    left: 0;
-   top: 100%;
+   top: 150%;
    position: absolute;
  }
  h5:after {
@@ -508,7 +508,7 @@ h5:before {
    height: 5px;
    background: #856A4D;
    right: 0;
-   top: 100%;
+   top: 150%;
    position: absolute;
  }
 
