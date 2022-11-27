@@ -445,7 +445,7 @@ body {
    vertical-align: middle;
    padding: 10px 10px;
    width: 200px;
-   height: 200px;
+   height:auto;
 }
 
 img {
