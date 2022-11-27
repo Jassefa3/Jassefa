@@ -556,3 +556,8 @@ h5:before {
    height: 80px;
    margin: auto;
 }
+
+.scroll {
+   text-align: center;
+   color: #856A4D;
+}
