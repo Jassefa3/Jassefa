@@ -25,6 +25,7 @@ body {
    height: 47px;
    background-size: cover;
    background-repeat: no-repeat;
+   margin: auto;
 }
 
 .slides-navigation a.prev {
