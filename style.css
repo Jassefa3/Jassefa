@@ -574,9 +574,6 @@ h3:hover {
    text-decoration: underline; 
 }
 
-.navbar-nav {
-   width: 100%;
-}
         
 .navbar-nav ul { 
    margin: 40px;
@@ -589,7 +586,7 @@ h3:hover {
    display: inline-block;
    text-decoration: none;
    color: #fff;
-   font-size: 14px;
+   font-size: 12px;
    letter-spacing: 2px;
    text-transform: uppercase;
    position: relative;
