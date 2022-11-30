@@ -608,4 +608,7 @@ h3:hover {
  
  .navbar-nav a:hover { color: #856A4D; }
  .navbar-nav a:hover::after { width: 100%; }
-     
+
+ .test {
+    color: #856A4D;
+ }
