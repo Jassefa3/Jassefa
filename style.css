@@ -567,7 +567,7 @@ h5:before {
 
 h3 { 
    font-weight: 120px;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-size: 60px;
    color: #856A4D;
 }
