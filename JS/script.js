@@ -30,7 +30,7 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["UI/UX DESIGNER.", "APP ENGINEER.", "CONTENT WRITER."],
+        strings: ["UI/UX DESIGNER.", "APP ENGINEER.", "COPY WRITER."],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
